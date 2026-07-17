@@ -5,9 +5,8 @@ from datetime import datetime, timezone
 # Config
 SMTP_HOST  = "smtp.gmail.com"
 SMTP_PORT  = 587
-SMTP_USER  = "benardtera2@gmail.com"
-SMTP_PASS  = "rsfrmpwfqorjgvjq"
-
+SMTP_USER  = example@gmail.com
+SMTP_PASS  = REPLACE_THE_SMTP_KEY
 
 def send_mail(to_addr: str, subject: str, body_html: str, attachment: bytes = None, attachment_name: str = None):
     """
